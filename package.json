@@ -6,6 +6,11 @@
   "bin": {
     "docker-enter": "./docker-enter.js"
   },
+  "scripts": {
+    "publish-patch": "npm version patch && npm publish",
+    "publish-minor": "npm version minor && npm publish",
+    "publish-major": "npm version major && npm publish"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dciccale/docker-enter.git"
